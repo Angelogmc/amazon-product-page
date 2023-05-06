@@ -3,7 +3,7 @@ const dog_btn = document.getElementById('dog_btn');
 const cat_result = document.getElementById('cat_result');
 const dog_result = document.getElementById('dog_result');
 
-cat_btn.addEventListener('click', getRandomCat);
+//cat_btn.addEventListener('click', getRandomCat);
 dog_btn.addEventListener('click', getRandomDog);
 
 function getRandomCat() {

@@ -22,7 +22,7 @@ function getRandomDog() {
 				getRandomDog();
 			}
 			else {
-				dog_result.innerHTML = `<img src=${data.url} alt="dog" />`;
+				dog_result.innerHTML = <img src="${data.url}" alt="dog" />;
 			}
 		});
 }
